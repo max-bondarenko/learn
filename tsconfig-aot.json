@@ -21,7 +21,7 @@
     "src/main.ts"
   ],
   "angularCompilerOptions": {
-    "genDir": "../aot",
+    "genDir": "aot",
     "skipMetadataEmit": true
   }
 }
