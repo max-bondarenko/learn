@@ -5,3 +5,6 @@ node_modules/
 *.tmp
 
 aot/
+src/app/*.js
+src/app/*.js.map
+src/build.js
