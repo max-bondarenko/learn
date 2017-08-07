@@ -1,6 +1,7 @@
 {
   "port": 8080,
   "server": {
+    "index" : "index-jit.html",
     "baseDir": "src",
     "routes": {
       "/node_modules": "node_modules"
