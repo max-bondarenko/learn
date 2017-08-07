@@ -1,9 +1,10 @@
 {
-  "open": false,
   "logLevel": "verbose",
   "port": 8080,
+  "open": "local",
+  "startPath": "/index-aot.html",
   "server": {
-    "baseDir": "aot",
+    "baseDir": "src",
     "routes": {
       "/node_modules": "node_modules"
     },

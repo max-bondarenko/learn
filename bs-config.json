@@ -1,7 +1,9 @@
 {
   "port": 8080,
+  "localOnly": true,
+  "open": "local",
+  "startPath": "/index-jit.html",
   "server": {
-    "index" : "index-jit.html",
     "baseDir": "src",
     "routes": {
       "/node_modules": "node_modules"
