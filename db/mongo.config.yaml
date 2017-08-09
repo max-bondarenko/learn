@@ -1,0 +1,27 @@
+systemLog:
+  destination: file
+  path: "./tmp/db/mongod.log"
+  logAppend: false
+storage:
+  journal:
+     enabled: false
+processManagement:
+  fork: false
+net:
+  bindIp: 127.0.0.1
+  port: 27017
+  http:
+    enabled: true
+    JSONPEnabled: false
+    RESTInterfaceEnabled: false
+
+setParameter:
+   enableLocalhostAuthBypass: true
+
+storage:
+   dbPath: ./tmp/db
+#   indexBuildRetry: <boolean>
+#   repairPath: <string>
+#   directoryPerDB: <boolean>
+#   syncPeriodSecs: <int>
+#   engine: <string>
