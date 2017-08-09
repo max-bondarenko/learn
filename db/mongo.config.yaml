@@ -13,7 +13,7 @@ net:
   http:
     enabled: true
     JSONPEnabled: false
-    RESTInterfaceEnabled: false
+    RESTInterfaceEnabled: true
 
 setParameter:
    enableLocalhostAuthBypass: true
