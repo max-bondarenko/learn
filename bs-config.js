@@ -1,8 +1,8 @@
 module.exports = {
     port: 8080,
-    browser: "default",
+    browser: "chromium-browser",
     logLevel: "verbose",
-
+    startPath: "/",
     localOnly: true,
     open: "local",
     server: {

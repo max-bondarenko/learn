@@ -5,6 +5,7 @@ systemLog:
 storage:
   journal:
      enabled: false
+     commitIntervalMs: 500
 processManagement:
   fork: false
 net:
