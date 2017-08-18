@@ -1,12 +1,12 @@
 #!/bin/sh
 DIR="$(dirname "$(realpath "$0")")"
-PID_FILE=./tmp/db/mongod.lock
+PID_FILE=./tmp/mongod.pid
 PID=
 cd $DIR
 
 if [ -e ${PID_FILE} ]; then (
     PID=`cat $PID_FILE` ;
-    if [ "stop" = $1 ]; then
+    if [ "stop" = "$1" ]; then
         kill -15 $PID && rm $PID_FILE && echo stopped;
     else
         echo "running pid: $PID"; exit 0;
